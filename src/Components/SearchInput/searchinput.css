@@ -1,0 +1,26 @@
+.input-container {
+    display: flex;
+
+    padding: 0.3rem 0.5rem;
+    border-radius: 15px;
+    background-color: #00000008;
+}
+
+.search-icon-container {
+    height: 1.3em;
+    width: 1.3em;
+    margin-left: 0.2rem;
+
+}
+
+.search-input {
+    border: none;
+    background-color: #00000001;
+    margin-left: 0.7em;
+    font-size: 1.2rem;
+}
+
+.search-input:focus {
+    outline: none;
+    
+}

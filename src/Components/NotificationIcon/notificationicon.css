@@ -1,0 +1,42 @@
+.notification-icon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.notification-icon:hover {
+    animation: bell 1s ease-in-out ;
+}
+
+@keyframes bell {
+    
+ 
+
+    5%, 15% {
+
+        transform: rotate(25deg);
+
+    }
+
+    10%, 20% {
+
+        transform:  rotate(-25deg);
+
+    }
+
+    25%  {
+
+        transform:  rotate(0deg);
+
+    }
+
+    100% {
+
+        transform:  rotate(0deg);
+
+    }
+
+}
+
+.notification-icon path {
+    fill: rgba(0,0,0,.8);;
+}

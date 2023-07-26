@@ -1,0 +1,9 @@
+.invite-member-container {
+    display: flex;
+}
+
+.userplus-icon-container {
+    height: 1.3em;
+    width: 1.3em;   
+    margin-right: 0.5rem;
+}

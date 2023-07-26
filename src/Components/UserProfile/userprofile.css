@@ -1,0 +1,24 @@
+.user-profile {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: #840C96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    padding: 1rem;
+
+}
+
+.status-badge {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: green;
+    border: 1px solid white;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
