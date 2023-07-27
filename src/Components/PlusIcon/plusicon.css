@@ -1,0 +1,8 @@
+.plus-icon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.plus-icon path {
+    fill: rgba(0,0,0,.8);;
+}

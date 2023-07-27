@@ -1,0 +1,8 @@
+.expand-icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.expand-icon path {
+    fill: rgba(0,0,0,.8);
+}

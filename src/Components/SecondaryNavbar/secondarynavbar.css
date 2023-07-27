@@ -1,0 +1,20 @@
+
+.secondary-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 4vh;
+    gap: 1em;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+.secondary-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.ellipsis-icon-container {
+
+    width: 0.21em;
+}

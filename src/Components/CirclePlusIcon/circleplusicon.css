@@ -1,0 +1,15 @@
+.circleplus-icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.circle-icon path {
+    fill: rgba(0,0,0,.8);
+}
+
+.circleplus-icon-container {
+    height: 1.3em;
+    width: 1.3em;
+}
