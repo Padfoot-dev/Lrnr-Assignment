@@ -1,0 +1,10 @@
+.angle-down-icon{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.angle-down-icon path {
+    fill: rgba(0,0,0,.8);
+}

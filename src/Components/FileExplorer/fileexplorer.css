@@ -26,22 +26,29 @@
     display: flex;
     flex-direction: column;
     height: 88vh;
-    background-color: rgba(0,0,0,0.05);
-    padding: 1em 1em;
+    background-color: rgba(0,0,0,0.03);
+    padding: 1em 0.2em;
     position: fixed;
     top: 12.5vh;
     left: 0;
     z-index: 1;
     transition: 0.5s;
     animation: fileExplorerInActive 0.2s ease-out forwards;
- 
+
   
+}
+
+.file-explorer-items {
+    margin-top: 1em;
+    
 }
 
 .file-explorer-active {
     display: block;
+    max-width: 20vw;
     width: 20vw;
     animation: fileExplorerActive 0.2s ease-in forwards;
+    overflow: scroll;
 
 }
 
@@ -59,10 +66,11 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 1em;
+    margin-right: 1em;
 
 }
 
 .fileexplorer-icon-container {
-    height: 1.3em;
-    width: 1.3em;
+    height: 1em;
+    width: 1em;
 }

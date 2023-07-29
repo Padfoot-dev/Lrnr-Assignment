@@ -4,6 +4,8 @@ import PlusIcon from "../PlusIcon/PlusIcon"
 import "./fileexplorer.css";
 import { toggleExplorer } from "../../features/fileExplorer/fileExplorerSlice";
 import { useDispatch, useSelector } from "react-redux";
+import { addCollection } from "../../features/fileTree/fileTreeSlice";
+import FileExplorerItems from "../FileExplorerItems/FileExplorerItems";
 
 const FileExplorer = () => {
 
@@ -14,12 +16,16 @@ const FileExplorer = () => {
         dispatch(toggleExplorer());
     }
 
+    const addCollectionToTree = () => {
+        dispatch(addCollection());
+    }
+
   return (
     <div className={`file-explorer-container ${isFileExplorerOpen && "file-explorer-active"}`}>
         <div className="file-explorer-nav">
             <p>{searchTerm}</p>
             <div className="file-explorer-menu ">
-                <div className="fileexplorer-icon-container">
+                <div onClick={addCollectionToTree} className="fileexplorer-icon-container">
                     <PlusIcon/>
                 </div>
                 <div className="fileexplorer-icon-container">
@@ -29,6 +35,9 @@ const FileExplorer = () => {
                     <AngleBackIcon/>
                </div>
             </div>
+        </div>
+        <div className="file-explorer-items">
+        <FileExplorerItems/>
         </div>
     </div>
   )

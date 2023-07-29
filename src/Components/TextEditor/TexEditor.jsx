@@ -29,9 +29,7 @@ const TexEditor = () => {
           
         return (
                 <ReactQuill theme="snow" value={value} onChange={setValue} modules={modules} formats={formats} > 
-                    <div className="my-editing-area">
 
-                    </div>
                 </ReactQuill>
                 );
       }
